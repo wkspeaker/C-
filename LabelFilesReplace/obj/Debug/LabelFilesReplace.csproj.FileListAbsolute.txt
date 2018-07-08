@@ -1,0 +1,14 @@
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\bin\Debug\LabelFilesReplace.exe.config
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\bin\Debug\LabelFilesReplace.exe
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\bin\Debug\LabelFilesReplace.pdb
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace.csprojResolveAssemblyReference.cache
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\MainWindow.g.cs
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\App.g.cs
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace_MarkupCompile.cache
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace_MarkupCompile.lref
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\MainWindow.baml
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace.g.resources
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace.Properties.Resources.resources
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace.csproj.GenerateResource.Cache
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace.exe
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace.pdb
