@@ -12,3 +12,4 @@ D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesR
 D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace.csproj.GenerateResource.Cache
 D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace.exe
 D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\LabelFilesReplace.pdb
+D:\RedSpider\Private\Develop\C#\Projects\LabelFilesReplace\obj\Debug\GeneratedInternalTypeHelper.g.cs

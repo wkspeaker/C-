@@ -27,6 +27,7 @@ namespace LabelFilesReplace
         {
             InitializeComponent();
 
+            /*
             Binding bindingSourceFile = new Binding();
             bindingSourceFile.Source = labelFileReplace;
             bindingSourceFile.Path = new PropertyPath("SourcePath");
@@ -51,7 +52,9 @@ namespace LabelFilesReplace
             bindingHelpText.Source = labelFileReplace;
             bindingHelpText.Path = new PropertyPath("HelpText");
             BindingOperations.SetBinding(this.tbHelp, TextBlock.TextProperty, bindingHelpText);
-
+            */
+            this.grdLabelFileReplace.DataContext = labelFileReplace;
+            
         }
 
         private Microsoft.Win32.OpenFileDialog GetFilePath()

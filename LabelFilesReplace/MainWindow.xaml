@@ -13,7 +13,7 @@
     </Window.Resources>
 
 
-        <Grid>
+        <Grid x:Name="grdLabelFileReplace">
         <Grid.RowDefinitions>
             <RowDefinition Height="44*"/>
             <RowDefinition Height="111*"/>
@@ -25,19 +25,19 @@
         <StackPanel Grid.Row=" 0" Grid.Column="0" Grid.RowSpan="2">
             <Label Content="Source file folder:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="180" Grid.Column="0" Grid.Row="0"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,10,0,0" >
-                <TextBox x:Name="txtSourceFolder" Width="320" VerticalAlignment="Top"  />
+                <TextBox x:Name="txtSourceFolder" Width="320" VerticalAlignment="Top" Text="{Binding SourcePath}" />
                 <Button x:Name="btnSourceFolder" Content="..." Click="btnSourceFolder_Click" />
             </StackPanel>
             <Label Content="Target file folder:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="180" />
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,10,0,0">
-                <TextBox x:Name="txtTargetFolder" Width="320" VerticalAlignment="Top" />
+                <TextBox x:Name="txtTargetFolder" Width="320" VerticalAlignment="Top" Text="{Binding TargetPath}" />
                 <Button x:Name="btnTargetFolder" Content="..." Click="btnTargetFolder_Click" />
             </StackPanel>
-            <CheckBox x:Name="cbNeedBackup" Content="Backup Target Files?" Margin="10,50,0,0" Click="cbNeedBackup_Click" />
+            <CheckBox x:Name="cbNeedBackup" Content="Backup Target Files?" Margin="10,50,0,0" Click="cbNeedBackup_Click" IsChecked="{Binding NeedBackup}"/>
             <Label Content="Status:" Margin="10,40,0,0" />
-            <TextBlock x:Name="tbStatus" Margin="10,5,0,0" />
+            <TextBlock x:Name="tbStatus" Margin="10,5,0,0" Text="{Binding Status}" />
             <Label Content="Help text:" Margin="10,60,0,0" />
-            <TextBlock x:Name="tbHelp" Margin="10,0,0,0" TextWrapping="Wrap"/>
+            <TextBlock x:Name="tbHelp" Margin="10,0,0,0" TextWrapping="Wrap" Text="{Binding HelpText}"/>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
             <Button x:Name="btnRefresh" Content="Refresh Status" Margin="0,0,10,10" Click="btnRefresh_Click"/>
