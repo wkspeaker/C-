@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -78,7 +79,13 @@ namespace LabelFilesReplace
 
         private void getFileList()
         {
-            labelFileReplace.RefreshFileList();
+            Thread thread = new Thread(new ThreadStart(labelFileReplace.RefreshFileList));
+            thread.Start();
+            //labelFileReplace.RefreshFileList();
+            while(thread.ThreadState.ToString() == "Running")
+            {
+                Thread.Sleep(1);
+            }
             this.lvLabelFiles.ItemsSource = labelFileReplace.labelFiles;
         }
 
@@ -99,7 +106,8 @@ namespace LabelFilesReplace
 
         private void btnProceed_Click(object sender, RoutedEventArgs e)
         {
-            labelFileReplace.ProceedActions();
+            Thread thread = new Thread(new ThreadStart(labelFileReplace.ProceedActions));
+            thread.Start();
         }
     }
 }
